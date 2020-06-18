@@ -1,0 +1,59 @@
+@font-face {
+    font-family: FuturaBook;
+    src: url(../fonts/Futura\ Book.ttf);
+  }
+@font-face {
+    font-family: FuturaPT;
+    src: url(../fonts/FuturaPTDemiOblique.otf);
+  }
+
+
+.navbar-brand{
+    font-family: FuturaPT;
+    font-size: 1em;
+}
+.navbar{
+    font-size: 2em;
+    background-color: white !important;
+}
+
+
+/* MENU */
+#hamb:hover{
+    cursor: pointer;
+    color: #838282;
+  }
+
+#menu{
+  z-index: 110;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: black;
+  padding: 1%;
+  display: none;
+}
+
+.menuAppear{
+  width: 100%;
+  animation-name: appear;
+  animation-duration: 2s;
+}
+
+@keyframes appear {
+  from {width: 0vw;}
+  to {width: 100vw;}
+}
+
+
+#exitMenu{
+  color: white;
+  float: right;
+  font-size: 2em;
+}
+#exitMenu:hover{
+  cursor: pointer;
+}
+/* MENU */

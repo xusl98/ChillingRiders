@@ -1,0 +1,74 @@
+@font-face {
+    font-family: FuturaBook;
+    src: url(../fonts/Futura\ Book.ttf);
+  }
+@font-face {
+    font-family: FuturaPT;
+    src: url(../fonts/FuturaPTDemiOblique.otf);
+  }
+
+  body{
+      font-family: FuturaPt;
+  }
+
+  #texto{
+      font-family: FuturaBook;
+      padding-left: 15%;
+      padding-top: 25%;
+      font-size: 1.3vw;
+      text-align: right;
+  }
+
+  #imagen{
+      width: 100%;
+      display: inline;
+      position: relative;
+  }
+
+  #titulo{
+    z-index: 100;
+    display: inline-block;
+    font-size: 9vw;
+    position: absolute;
+    left: 14%;
+    top: 28%;
+  }
+  #titulo:hover{
+    color: black;
+    -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+  }
+  #sobreImg{
+      /* padding-top: 5%; */
+  } 
+
+  #verticalText{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -20%;
+    bottom: 24%;
+    font-size: 1.5vw !important;
+
+  }
+
+  #sobreVert{
+    /* padding-left: 6% !important; */
+  }
+
+  #rayas{
+      position: absolute;
+      bottom: 70%;
+      left: 65%;
+      
+    }
+    .trazado{
+        width: 10% !important;
+        transform: rotate(180deg);
+  }
+  svg{
+      display: inline-block;
+  }
+  #fila{
+      padding-top: 4%;
+  }
