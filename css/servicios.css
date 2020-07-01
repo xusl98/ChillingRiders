@@ -1,0 +1,31 @@
+/* TRAZADOS */
+.rayas{
+    position: absolute;
+  }
+  #rayas1{
+    top: -18vh;
+    left: 65vw;
+    z-index: 1;
+  }
+  #rayas2{
+    bottom: -20vh;
+    left: 15vw;
+  }
+  .trazado{
+    width: 10% !important;
+    transform: rotate(180deg);
+}
+/* TRAZADOS */
+#title{
+  font-size: 10vw !important;
+  width: 100%;
+}
+body{
+  overflow-y: hidden;
+}
+.textoServicio{
+  text-align: left;
+}
+#linea1{
+  height: 2vh;
+}

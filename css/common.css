@@ -7,7 +7,9 @@
     src: url(../fonts/FuturaPTDemiOblique.otf);
   }
 
-
+  body{
+    font-family: FuturaPt;
+}
 .navbar-brand{
     font-family: FuturaPT;
     font-size: 1em;
@@ -17,8 +19,16 @@
     background-color: white !important;
 }
 
+.centerText{
+  text-align: center;
+}
+
+
 
 /* MENU */
+#hamb{
+  z-index: 100;
+}
 #hamb:hover{
     cursor: pointer;
     color: #838282;
@@ -26,8 +36,8 @@
 
 #menu{
   z-index: 110;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: absolute;
   right: 0;
   top: 0;
@@ -37,7 +47,7 @@
 }
 
 .menuAppear{
-  width: 100%;
+  width: 100vw;
   animation-name: appear;
   animation-duration: 2s;
 }
@@ -53,7 +63,40 @@
   float: right;
   font-size: 2em;
 }
+
 #exitMenu:hover{
   cursor: pointer;
 }
+
+.menuText:hover{
+  text-decoration: none;
+}
+
+.menuText{
+  font-size: 3em;
+  display: none;
+}
+.menuItems{
+  margin-top: 20%;
+}
+
+.menuText:hover{
+  cursor: pointer;
+}
+
+#serviciosItem{
+  margin-top: 10%;
+} 
+#portfolioItem{
+  margin-top: 15%;
+} 
+#contactoItem{
+  margin-top: 20%;
+} 
+#nosotrosItem {
+  margin-top: 25%;
+}
+
+
+
 /* MENU */
