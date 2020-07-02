@@ -8,11 +8,6 @@
     left: 25vw;
     z-index: 1;
   }
-  #rayas2{
-    width: 40vw;
-    bottom: -20vh;
-    left: 15vw;
-  }
   .trazado{
     width: 10% !important;
     transform: rotate(180deg);
@@ -163,3 +158,5 @@ h2{
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
+
+  
