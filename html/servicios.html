@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/servicios.css">
     <link href="../libraries/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
     <script src="../js/common.js"></script>
+    <script src="../js/servicios.js"></script>
     <script src="../libraries/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
     <script src="../libraries/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -65,15 +66,16 @@
             </path>
         </svg>
     </div>
-    <div class="container-fluid">
+    <div id="contenedor" class="container-fluid">
         <div class="row centerText">
             <h1 id="title">Servicios</h1>
         </div>
-        <div class="row">
+        <div id="listServicios" class="row">
             <div class="servicio col-sm-3 centerText">
-                <h1>Diseño gráfico <br> Branding</h1>
+                <h1 id="dGrafico" class="titleUp">Diseño gráfico <br> Branding</h1>
+                <h1 class="titleUpInv">Diseño gráfico <br> Branding</h1>
                 <id class="verticalBars">
-                    <svg id="linea1" width="300" height="225" stroke="black" stroke-width="3">
+                    <svg class="linea" id="linea1" width="300" height="225" stroke="black" stroke-width="3">
                         <line x1="50%" y1="0%" x2="50%" y2="100%"></line>
                     </svg>
                 </id>
@@ -81,6 +83,45 @@
                     Nos encantan las marcas, nos encanta que nos confíen lo más preciado, su identidad. Nos encanta
                     crearlas, empezar con unos bocetos y acabar con todo un universo.
                 </div>
+            </div>
+            <div class="servicio col-sm-3 centerText">
+                <div class="textoServicio" style="text-align: center;">
+                    Aportamos nuestra experiencia para asumir la dirección de vuestras redes sociales haciendo hincapié
+                    en la planificación, constancia para conseguir el mayor alcance.
+                </div>
+                <div class="verticalBars">
+                    <svg class="linea" id="linea2" width="300" height="325" stroke="black" stroke-width="3">
+                        <line x1="50%" y1="0%" x2="50%" y2="100%"></line>
+                    </svg>
+                </div>
+                <h1 class="titleDown">Social <br> Media</h1>
+                <h1 class="titleDownInv">Social <br> Media</h1>
+            </div>
+            <div class="servicio col-sm-3 centerText">
+                <h1 id="dWeb" class="titleUp">Diseño <br> Web</h1>
+                <h1 class="titleUpInv">Diseño <br> Web</h1>
+                <id class="verticalBars">
+                    <svg class="linea" id="linea3" width="300" height="225" stroke="black" stroke-width="3">
+                        <line x1="50%" y1="0%" x2="50%" y2="100%"></line>
+                    </svg>
+                </id>
+                <div class="textoServicio">
+                    Diseñamos y codificamos “al pixel” porque no concebimos la vida de otra manera.
+                    ¿Quieres lo que piensas a un solo “click”?
+                </div>
+            </div>
+            <div class="servicio col-sm-3 centerText">
+                <div class="textoServicio">
+                    Nos encantan las marcas, nos encanta que nos confíen lo más preciado, su identidad. Nos encanta
+                    crearlas, empezar con unos bocetos y acabar con todo un universo.
+                </div>
+                <div class="verticalBars">
+                    <svg class="linea" id="linea4" width="300" height="225" stroke="black" stroke-width="3">
+                        <line x1="50%" y1="0%" x2="50%" y2="100%"></line>
+                    </svg>
+                </div>
+                <h1 class="titleDown">Asesoría de <br> Comunicación</h1>
+                <h1 class="titleDownInv">Asesoría de <br> Comunicación</h1>
             </div>
 
         </div>

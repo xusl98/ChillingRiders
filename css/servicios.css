@@ -1,4 +1,5 @@
 /* TRAZADOS */
+
 .rayas{
     position: absolute;
   }
@@ -8,6 +9,7 @@
     z-index: 1;
   }
   #rayas2{
+    width: 40vw;
     bottom: -20vh;
     left: 15vw;
   }
@@ -16,6 +18,14 @@
     transform: rotate(180deg);
 }
 /* TRAZADOS */
+#title:hover{
+  color: black;
+  -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+
 #title{
   font-size: 10vw !important;
   width: 100%;
@@ -28,4 +38,46 @@ body{
 }
 #linea1{
   height: 2vh;
+}
+#linea2{
+  height: 5vh;
+}
+#linea3{
+  height: 4vh;
+}
+#linea4{
+  height: 5vh;
+}
+#listServicios{
+  /* margin-top: 4%; */
+}
+
+#contenedor{
+  padding: 0 7% 0 7%;
+}
+
+.servicio{
+  padding: 3%;
+}
+
+.linea{
+  width: 100%;
+}
+
+.titleUp{
+  position: absolute;
+  margin-top: 120%;
+  left: 8vw;
+}
+.titleUpInv{
+  visibility: hidden;
+}
+
+.titleDown{
+  position: absolute;
+  margin-top: -120%;
+  left: 8vw;
+}
+.titleDownInv{
+  visibility: hidden;
 }
