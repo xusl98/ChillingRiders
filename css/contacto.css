@@ -80,3 +80,15 @@ a:hover{
 #facebook{
     margin-top: -20vh;
 }
+
+.icon:hover{
+    filter: invert(0.5) sepia(1) hue-rotate(200deg); 
+    -webkit-transform: rotate(25deg);
+ -moz-transform: rotate(25deg);
+ -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+ -webkit-transition-duration: 1s;
+ -moz-transition-duration: 1s;
+ -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
