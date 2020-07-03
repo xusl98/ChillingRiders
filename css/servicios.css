@@ -28,7 +28,7 @@
 
 #title{
   font-size: 10vw !important;
-  width: 100%;
+  /* width: 100%; */
 }
 body{
   overflow-y: hidden;
@@ -80,4 +80,7 @@ body{
 }
 .titleDownInv{
   visibility: hidden;
+}
+#dGrafico{
+  left: 4.3vw;
 }

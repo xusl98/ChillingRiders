@@ -1,0 +1,82 @@
+/* TRAZADOS */
+
+.rayas{
+    position: absolute;
+  }
+  #rayas1{
+    top: 55vh;
+    right: -6vw;
+    z-index: 1;
+    transform: rotate(90deg);
+  }
+  .trazado{
+    width: 5vw !important;
+    /* transform: rotate(270deg); */
+}
+/* TRAZADOS */
+
+body{
+    background-color: black !important;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: black !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+#hamb{
+    color: white !important;
+}
+#hamb:hover{
+    color: gray !important;
+}
+
+#redes{
+    /* margin-top: 20vh; */
+    text-align: center;
+}
+
+#redes h3{
+    margin-top: 2%;
+    font-size: 1.3vw;
+}
+
+#contenedor{
+    padding: 17vh 22vw 0 22vw;
+}
+#texto{
+    margin-top: 4vh;
+}
+
+#title{
+    color: white !important;
+    font-size: 20vh !important;
+  }
+#title:hover{
+    color: black;
+    -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+#instagram{
+    margin-top: -5vh;
+}
+#mail{
+    margin-top: -10vh;
+}
+#twitter{
+    margin-top: -15vh;
+}
+#facebook{
+    margin-top: -20vh;
+}
