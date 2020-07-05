@@ -9,20 +9,25 @@
 
   body{
       font-family: FuturaPt;
+      overflow: hidden;
   }
 
   #texto{
       font-family: FuturaBook;
-      padding-left: 15%;
-      padding-top: 25%;
       font-size: 1.3vw;
       text-align: right;
+      position: absolute;
+      z-index: 100;
+      width: 20vw;
+      top: 60vh;
+      left: 13vw;
+      
   }
 
   #imagen{
       width: 100%;
       display: inline;
-      position: relative;
+      /* position: relative; */
   }
 
   #titulo{
@@ -46,9 +51,9 @@
   #verticalText{
     position: absolute;
     transform: rotate(90deg);
-    right: -20%;
-    bottom: 24%;
     font-size: 1.5vw !important;
+    right: -1vw;
+    top: 65vh;
 
   }
 
@@ -71,4 +76,11 @@
   }
   #fila{
       padding-top: 4%;
+  }
+
+  img{
+    position: absolute;
+    width: 55vw !important;
+    top: 10vh;
+    right: 10vw;
   }

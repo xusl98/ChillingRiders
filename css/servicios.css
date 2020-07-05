@@ -65,20 +65,24 @@ body{
 }
 
 .titleUp{
+  font-size: 2vw;
   position: absolute;
   margin-top: 120%;
-  left: 8vw;
+  /* left: 8vw; */
 }
 .titleUpInv{
+  font-size: 2vw;
   visibility: hidden;
 }
 
 .titleDown{
+  font-size: 2vw;
   position: absolute;
   margin-top: -120%;
-  left: 8vw;
+  /* left: 8vw; */
 }
 .titleDownInv{
+  font-size: 2vw;
   visibility: hidden;
 }
 #dGrafico{

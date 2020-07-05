@@ -44,12 +44,19 @@ body{
 }
 
 #contenedor{
-    padding: 17vh 22vw 0 22vw;
+    height: 80vh;
+    padding: 0vh 22vw 0 22vw;
 }
 #texto{
     margin-top: 4vh;
 }
 
+h3{
+    font-size: 1.6vw;
+}
+svg{
+    width: 100%;
+}
 #title{
     color: white !important;
     font-size: 20vh !important;

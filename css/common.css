@@ -9,6 +9,7 @@
 
   body{
     font-family: FuturaPt;
+    overflow-x: hidden;
 }
 .navbar-brand{
     font-family: FuturaPT;
