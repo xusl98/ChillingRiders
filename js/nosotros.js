@@ -1,6 +1,16 @@
 $(document).ready(function () {
+
+
+    var myObject = $("#texto");
+    var myposition = myObject.offset();
+    
+
+
     $('#texto1').css({ 'width': $('#texto').css('width') });
-    $('#texto1').animate({ 'top': '37.1vh', 'left': '3.4vw' }, 1000, function (){
+    $('#texto1').css({ 'height': $('#texto').css('height') });
+    $('#texto1').css({ 'padding-left': $('#texto').css('padding-left') });
+    $('#texto1').css({ 'padding-top': $('#texto').css('padding-top') });
+    $('#texto1').animate({ 'top': myposition.top, 'left': myposition.left }, 1000, function (){
         $('#texto1').css('display', 'none');
         $('#texto').css('visibility', 'visible');
     });

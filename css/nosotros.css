@@ -58,11 +58,22 @@ img{
 }
 
 #texto{
-    padding-top: 20vh;
-    padding-left: 30vw;
+    padding-top: 5%;
+    padding-left: 32%;
+    /* padding-top: 20vh;
+    padding-left: 30vw; */
     font-size: 1.3vw;
     text-align: right;
     visibility: hidden;
+}
+#texto1{
+    padding-top: 5%;
+    padding-left: 32%;
+    /* padding-top: 20vh;
+    padding-left: 30vw; */
+    font-size: 1.3vw;
+    text-align: right;
+    padding-right: 15px;
 }
 
 #title{
@@ -100,13 +111,16 @@ img{
 
   #texto1{
     position: absolute;
-    padding-left: 30.5vw;
-    font-size: 1.3vw;
-    text-align: right;
-    /* top: 37.1vh;
-    left: 3.4vw; */
     top: 0vh;
     left: 50vw;
+    padding-top: 5%;
+    padding-left: 32%;
+    /* padding-top: 20vh;
+    padding-left: 30vw; */
+    font-size: 1.3vw;
+    text-align: right;
+    padding-right: 15px;
+
   }
 
   #hamb{
