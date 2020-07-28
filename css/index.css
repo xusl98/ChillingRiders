@@ -18,14 +18,14 @@
       text-align: right;
       position: absolute;
       z-index: 100;
-      width: 20vw;
-      top: 60vh;
+      width: 18vw;
+      top: 53vh;
       left: 13vw;
       
   }
 
   #imagen{
-      width: 100%;
+      width: 900%;
       display: inline;
       /* position: relative; */
   }
@@ -36,14 +36,20 @@
     font-size: 9vw;
     position: absolute;
     left: 14%;
-    top: 28%;
+    top: 32vh;
   }
-  #titulo:hover{
+  #titulo{
     color: black;
     -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
   }
+  /* #titulo:hover{
+    color: black;
+    -webkit-text-fill-color: rgba(0,0,0,0); 
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+  } */
   #sobreImg{
       /* padding-top: 5%; */
   } 
@@ -81,6 +87,7 @@
   img{
     position: absolute;
     width: 55vw !important;
+    height: 75vh;
     top: 10vh;
     right: 10vw;
   }

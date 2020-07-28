@@ -27,6 +27,7 @@
 
 
 #title{
+  margin-top: 6vh;
   font-size: 10vw !important;
   /* width: 100%; */
 }
@@ -35,6 +36,12 @@ body{
 }
 .textoServicio{
   text-align: left;
+  font-size: 1.1vw;
+  font-family: FuturaBook !important;
+}
+
+#textoAsesoria{
+  text-align: right !important;
 }
 #linea1{
   height: 2vh;
@@ -65,24 +72,24 @@ body{
 }
 
 .titleUp{
-  font-size: 2vw;
+  font-size: 2.3vw;
   position: absolute;
   margin-top: 120%;
   /* left: 8vw; */
 }
 .titleUpInv{
-  font-size: 2vw;
+  font-size: 2.3vw;
   visibility: hidden;
 }
 
 .titleDown{
-  font-size: 2vw;
+  font-size: 2.3vw;
   position: absolute;
   margin-top: -120%;
   /* left: 8vw; */
 }
 .titleDownInv{
-  font-size: 2vw;
+  font-size: 2.3vw;
   visibility: hidden;
 }
 #dGrafico{

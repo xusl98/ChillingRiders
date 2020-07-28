@@ -83,6 +83,8 @@
 }
 .menuItems{
   margin-top: 20%;
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
 
 .menuText:hover{

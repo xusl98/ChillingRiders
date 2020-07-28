@@ -39,13 +39,14 @@ body{
 }
 
 #redes h3{
-    margin-top: 2%;
+    margin-top: 15%;
     font-size: 1.3vw;
 }
 
 #contenedor{
     height: 80vh;
     padding: 0vh 22vw 0 22vw;
+    margin-top: 20vh;
 }
 #texto{
     margin-top: 4vh;
@@ -66,6 +67,10 @@ svg{
     -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: white;
+}
+
+#resumen{
+    font-family: FuturaBook;
 }
 
 a{

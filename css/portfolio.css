@@ -41,8 +41,11 @@ img{
   height: 100vh;
 }
 #contenedorImages{
+  margin-top: 9vh;
   height: 100vh;
   padding: 1%;
+  padding-left: 8vw;
+  padding-right: 8vw;
 }
 
 .imageDown{
@@ -62,7 +65,7 @@ h2{
     position: absolute;
     /* top: 10vh;
     left: 46vw; */
-    top: -10vh;
+    top: -1vh;
     left: 90vw;
 }
 
@@ -161,4 +164,8 @@ h2{
     filter: alpha(opacity=100);
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+  }
+
+  .titImg{
+    text-align: left;
   }

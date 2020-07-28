@@ -16,6 +16,6 @@ $(document).ready(function () {
     });
     $('.upwards').animate({ 'marginTop': '0%' }, 1000);
     $('.downwards').animate({ 'marginTop': '0%' }, 1000);
-    $('#verticalText').animate({ 'bottom': '18vh' }, 1000);
+    $('#verticalText').animate({ 'bottom': '24vh' }, 1000);
 
 });
